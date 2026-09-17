@@ -461,10 +461,7 @@ Do not choose the busiest component. Follow the same I/O demand through time. Fi
 This approach also prevents common false conclusions. High Linux device busy time does not equal array saturation. Low FC bandwidth does not prove the fabric is healthy. A high lifetime CRC count does not prove errors occurred during the test. More QEMU I/O threads do not fix a slow replica path. A fast array does not rule out latency elsewhere in the I/O chain.
 
 
-## Suggested publishing split
-
-
-## References to validate before publication
+## References
 
 Red Hat OpenShift documentation: https://docs.redhat.com/en/documentation/openshift_container_platform/
 
