@@ -1,0 +1,12 @@
+# Evidence output
+ocpv-node-*/
+ocpv-oc-*/
+must-gather*/
+*.tar.gz
+*.tgz
+
+# Local/editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp

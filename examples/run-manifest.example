@@ -1,0 +1,25 @@
+# Shared run metadata
+RUN_ID=20260917T150000Z-storage-test
+NAMESPACE=<vm-namespace>
+VM=<vm-name>
+PVC=<disposable-test-pvc>
+NODE=<vm-worker-node>
+PX_VOLUME=<portworx-volume-id>
+PEER=<replica-peer-ip>
+WWID=<multipath-wwid>
+FC_PORT=<fcX/Y>
+DURATION=330
+INTERVAL=5
+
+# Record separately:
+# OpenShift version
+# OpenShift Virtualization version
+# Portworx version
+# guest OS
+# vCPU / memory
+# test command
+# block size
+# read/write mix
+# queue depth
+# thread count
+# exact UTC start/end
