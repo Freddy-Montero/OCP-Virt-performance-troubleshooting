@@ -29,11 +29,6 @@ Storage performance troubleshooting: a two-part practical series
 From locating the first latency boundary to synchronized end-to-end evidence collection across the full virtualization and storage stack.
 
 
-## Source and method
-
-This series expands the uploaded OpenShift Virtualization Storage Performance Troubleshooting Template. It preserves the source runbook's map, baseline, load, correlate, and change methodology, plus its CPU, NUMA, QEMU, cgroup, network, FC, multipath, OpenShift, Portworx, SAN, array, and automated collector coverage.
-
-
 ## Part 1: Finding the first storage latency boundary
 
 Finding the first storage latency boundary in OpenShift Virtualization
@@ -523,7 +518,3 @@ For a shorter operational reference, see `docs/troubleshooting-field-guide.md`. 
 Do not run destructive raw-write tests against production PVCs, imported VMDKs, Portworx cloud-drive LUNs, or devices containing data. Use a newly provisioned disposable PVC and a test file inside the guest filesystem.
 
 Validate commands and metrics against the OpenShift, OpenShift Virtualization, Portworx, operating system, SAN, and storage versions installed in your environment.
-
-## License
-
-Add the license appropriate for your organization before publishing. The included `LICENSE` file is a placeholder.
